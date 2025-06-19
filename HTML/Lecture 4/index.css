@@ -1,0 +1,24 @@
+.world-style{
+    background-color:aquamarine;
+    color: #333;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+
+.heading{
+    color: darkblue;
+    text-align: center;
+}
+
+#span-id{
+    color: red;
+    font-weight: bold;
+}
+
+
+.span-class{
+      color: rgb(0, 255, 34);
+    font-weight:bolder;
+}
