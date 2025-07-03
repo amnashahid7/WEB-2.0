@@ -1,0 +1,23 @@
+.sampleBox{
+    width: 100px;
+    height: 100px;
+   /* border: 2px solid brown; */
+   /* border-width: 2px;
+   border-color: brown;
+   border-style: solid; */
+   border: red solid 5px;
+   /* border-top-width: 50px;
+   border-bottom-width: 50px; */
+}
+
+.div2{
+    margin-top: 10px;
+    background-color: aqua;
+}
+
+.div1{
+    /* background-color: blueviolet; */
+    padding: 10px;
+    /* padding-left: 10px;
+    padding-right: 10px; */
+}
