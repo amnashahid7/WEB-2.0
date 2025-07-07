@@ -1,0 +1,19 @@
+.para{
+    color: blue;
+    text-decoration:underline solid red 5px;
+    text-align: start;
+    
+text-transform: uppercase;
+}
+.link{
+    text-decoration: dotted;
+}
+.dir{
+    direction: rtl;
+}
+.para2{
+    text-align-last:justify ;
+}
+.text{
+    vertical-align: middle;
+}
