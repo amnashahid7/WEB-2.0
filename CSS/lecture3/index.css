@@ -1,0 +1,34 @@
+.link{
+    color: red;
+    text-decoration: none;
+}
+
+.link:hover{
+    color: pink;
+    font-size: 40px;
+}
+
+.link:visited{
+    color: purple;
+}
+
+
+
+
+.link1{
+    color: rgb(65, 2, 2);
+}
+
+.link1:hover{
+    color: rgb(204, 98, 115);
+    font-size: 40px;
+}
+
+.link1:visited{
+    color: rgb(13, 128, 0);
+}
+
+
+.link:active{
+    color: chartreuse;
+}
