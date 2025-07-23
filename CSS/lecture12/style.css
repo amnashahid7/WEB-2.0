@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+   /* important if you want items to wrap on smaller screens */
+}
+
+.column {
+  flex: 0 0 33.33%;
+  padding: 5px 10px;
+}
+
+/* Media query for 320px or less (should use max-width, not min-width for mobile-first) */
+@media (max-width: 320px) {
+  .column {
+    flex: 0 0 100%;
+  }
+}
