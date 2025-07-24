@@ -1,0 +1,42 @@
+*{
+  padding: 0;
+  margin: 0%;
+  box-sizing: border-box;
+}
+.container{
+  display: grid;
+  grid-template-columns:  1fr 100px 2fr 3fr; 
+  grid-template-rows: 1fr 5fr;
+  grid-column-start: 1;
+  grid-column-end : 4;
+  /* theses columns width should be set in different ways like auto auto auto, auto 100px auto, 1fr 2fr 3fr, 1fr 100px 2fr; */
+  /* column-gap: 10px;
+  row-gap: 10px; */
+  /* gap: 10px 50px;   */
+  /* row gap first and then col gap */
+}
+
+.container div {
+  background-color: lightblue;
+  border: 1px solid blue;
+  padding: 20px;
+  text-align: center;
+}
+
+
+.div1{
+    grid-column-start: 1;
+  grid-column-end : 4;
+}
+.div4{
+    grid-column-start: 3;
+  grid-column-end : 5;
+}
+
+
+.div2{
+  /* grid-row-start: 2;
+  grid-row-end: 5; */
+     grid-column-start: 4;
+  grid-column-end : 5;
+}
