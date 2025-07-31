@@ -9,88 +9,35 @@
       rel="stylesheet"
     />
   </head>
- <body>
-<button title="Heelo" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
-  Open modal
-</button>
-<a href="#click">Down</a>
-
-
-<div class="modal fade" id="myModal">
-  <div class="modal-dialog modal-fullscreen">
-    <div class="modal-content">
-
-      <!-- Modal Header -->
-      <div class="modal-header">
-        <h4 class="modal-title">Lorem Data</h4>
-        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-      </div>
-
-      <!-- Modal body -->
-      <div class="modal-body">
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis cupiditate, tempore rem, debitis doloremque ducimus porro perferendis reiciendis iure itaque in sunt laboriosam rerum ipsam voluptates sequi tempora quod voluptas!
-      </div>
-
-      <!-- Modal footer -->
-      <div class="modal-footer">
-        <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Profile</button>
-      </div>
-
-    </div>
+<body>
+  <div class="bg-secondary">
+  <form action="/action_page.php" >
+  <div class="mb-3">
+    <label for="email" class="form-label">Email:</label>
+    <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
   </div>
-</div>
-
-
-
-
-<div id="demo" class="carousel slide" data-bs-ride="carousel">
-
-  <!-- Indicators/dots -->
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+  <div class="mb-3">
+    <label for="pwd" class="form-label">Password:</label>
+    <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
   </div>
-
-  <!-- The slideshow/carousel -->
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="https://static.vecteezy.com/system/resources/thumbnails/007/073/820/small_2x/wooden-table-and-blur-of-beauty-sunset-sky-and-mountains-as-background-free-photo.jpg" alt="Los Angeles" class="d-block w-100">
-    </div>
-    <div class="carousel-item">
-      <img src="https://images.unsplash.com/photo-1699891730676-037bed3c1bed?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2Vic2l0ZSUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D" alt="Chicago" class="d-block w-100">
-    </div>
-    <div class="carousel-item">
-      <img src="https://static.vecteezy.com/system/resources/thumbnails/049/925/799/small_2x/abstract-wave-line-pattern-on-dark-blue-background-futuristic-technology-concept-suit-for-banner-poster-cover-brochure-flyer-website-free-vector.jpg" alt="New York" class="d-block w-100">
-    </div>
+  <div class="form-check mb-3">
+    <label class="form-check-label">
+      <input class="form-check-input" type="checkbox" name="remember"> Remember me
+    </label>
   </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+  <input type="text" class="form-control-plaintext" placeholder="Plaintext input">
+<input type="text" class="form-control" placeholder="Normal input">
 
-  <!-- Left and right controls/icons -->
-  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-    <span class="carousel-control-next-icon"></span>
-  </button>
+
+
+<select class="form-select form-select-sm mb-3" aria-label=".form-select-lg example">
+  <option>1</option>
+  <option>2</option>
+  <option>3</option>
+  <option>4</option>
+</select>
+</form>
 </div>
-
-
-
-
-
-<div id="click" class="click">
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla possimus iusto quidem quasi facere reprehenderit odio velit ab quos ullam earum soluta facilis, beatae omnis culpa tenetur distinctio adipisci at.</p>
-  <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel rem nemo ea, nostrum temporibus harum itaque ducimus, labore minus cupiditate neque, debitis hic excepturi ipsam reiciendis atque nisi corporis culpa?</h2>
-
-</div>
-
-
-<div class="d-flex justify-content-between align-items-center">
-  <h1>heelo</h1>
-  <h2>heeee</h2>
-</div>
-
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
- </body>
+</body>
 </html>
